@@ -7,5 +7,16 @@
 package com.mycompany.buildingsandsensors;
 
 public class Sensor {
+// Not sure if needs to be double or String 
+    private double sensor;
 
+    public Sensor(double sensor) {
+        this.sensor = sensor;
+    }
+
+    public void setSensor(double sensor) {
+        this.sensor = sensor;
+    }
+    
+    
 }
