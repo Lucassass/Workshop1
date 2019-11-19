@@ -16,6 +16,7 @@ public class App extends Application {
         
         var label = new Label("Hello, JavaFX ");
         var scene = new Scene(new StackPane(label), 640, 480);
+        stage.setTitle("Super Vision Control");
         stage.setScene(scene);
         stage.show();
     }

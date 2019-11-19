@@ -10,6 +10,6 @@ import java.util.ArrayList;
 
 public class SuperVisionControl {
 
-    ArrayList<Building> buildingList = new ArrayList<Building>();
+    ArrayList<Building> buildingList = new ArrayList<>();
     
 }
