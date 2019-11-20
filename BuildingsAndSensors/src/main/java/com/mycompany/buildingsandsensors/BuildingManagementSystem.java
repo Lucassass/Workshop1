@@ -11,6 +11,7 @@ public class BuildingManagementSystem extends Building {
 
     private ArrayList<Building> buildings = new ArrayList();
 
+
     public ArrayList<Building> getBuilding() {
 
         return buildings;

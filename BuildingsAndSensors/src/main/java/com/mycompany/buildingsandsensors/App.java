@@ -9,6 +9,7 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.util.ArrayList;
 
 /**
  * JavaFX App
@@ -24,11 +25,8 @@ public class App extends Application {
         primaryStage.show();
     }
 
+
     public static void load(String[] args) {
         launch();
-    }
-
-    public void showAllBuildings(ActionEvent actionEvent) {
-        return
     }
 }
