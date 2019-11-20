@@ -1,106 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.FlowPane?>
 <?import javafx.scene.layout.HBox?>
 
-<FlowPane fx:controller="src.main.java.com.mycompany.buildingsandsensors.controller" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="503.0" prefWidth="981.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
-   <children>
-      <TextField prefHeight="146.0" prefWidth="933.0">
-         <FlowPane.margin>
-            <Insets left="10.0" top="40.0" />
-         </FlowPane.margin>
-      </TextField>
-      <HBox prefHeight="100.0" prefWidth="808.0">
-         <FlowPane.margin>
-            <Insets left="50.0" top="20.0" />
-         </FlowPane.margin>
-         <children>
-            <Button mnemonicParsing="false" onAction="#showAllBuildings" text="Show all buildings">
-               <HBox.margin>
-                  <Insets left="10.0" top="40.0" />
-               </HBox.margin>
-            </Button>
-            <Button mnemonicParsing="false" text="Show all sensors">
-               <HBox.margin>
-                  <Insets left="10.0" top="40.0" />
-               </HBox.margin>
-            </Button>
-            <Button mnemonicParsing="false" text="Show all akuators">
-               <HBox.margin>
-                  <Insets left="10.0" top="40.0" />
-               </HBox.margin>
-            </Button>
-         </children>
-      </HBox>
-      <HBox prefHeight="100.0" prefWidth="878.0">
-         <FlowPane.margin>
-            <Insets left="50.0" />
-         </FlowPane.margin>
-         <children>
-            <Button mnemonicParsing="false" text="Show temperture in building">
-               <HBox.margin>
-                  <Insets left="10.0" top="40.0" />
-               </HBox.margin>
-            </Button>
-            <Button mnemonicParsing="false" text="Set temperture in building">
-               <HBox.margin>
-                  <Insets left="10.0" top="40.0" />
-               </HBox.margin>
-            </Button>
-            <Button mnemonicParsing="false" text="Show CO2 level in building">
-               <HBox.margin>
-                  <Insets left="10.0" top="40.0" />
-               </HBox.margin>
-            </Button>
-            <Button mnemonicParsing="false" text="Set CO2 level in building">
-               <HBox.margin>
-                  <Insets left="10.0" top="40.0" />
-               </HBox.margin>
-            </Button>
-         </children>
-      </HBox>
-      <HBox prefHeight="100.0" prefWidth="864.0">
-         <opaqueInsets>
-            <Insets />
-         </opaqueInsets>
-         <FlowPane.margin>
-            <Insets left="60.0" />
-         </FlowPane.margin>
-         <children>
-            <Button mnemonicParsing="false" text="Add Building">
-               <HBox.margin>
-                  <Insets top="40.0" />
-               </HBox.margin>
-            </Button>
-            <Button mnemonicParsing="false" text="Remove building">
-               <HBox.margin>
-                  <Insets left="10.0" top="40.0" />
-               </HBox.margin>
-            </Button>
-            <Button mnemonicParsing="false" text="Add sensor">
-               <HBox.margin>
-                  <Insets left="10.0" top="40.0" />
-               </HBox.margin>
-            </Button>
-            <Button mnemonicParsing="false" text="Remove sensor">
-               <HBox.margin>
-                  <Insets left="10.0" top="40.0" />
-               </HBox.margin>
-            </Button>
-            <Button mnemonicParsing="false" text="Add akuator">
-               <HBox.margin>
-                  <Insets left="10.0" top="40.0" />
-               </HBox.margin>
-            </Button>
-            <Button mnemonicParsing="false" text="Remove akuator">
-               <HBox.margin>
-                  <Insets left="10.0" top="40.0" />
-               </HBox.margin>
-            </Button>
-         </children>
-      </HBox>
-   </children>
-</FlowPane>
+   <FlowPane fx:controller="src.main.java.com.mycompany.buildingsandsensors.controller" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="503.0" prefWidth="981.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+      <children>
+         <TextField prefHeight="146.0" prefWidth="933.0">
+            <FlowPane.margin>
+               <Insets left="10.0" top="40.0" />
+            </FlowPane.margin>
+         </TextField>
+         <HBox prefHeight="100.0" prefWidth="808.0">
+            <FlowPane.margin>
+               <Insets left="50.0" top="20.0" />
+            </FlowPane.margin>
+            <children>
+               <Button mnemonicParsing="false" onAction="#showAllBuildings" text="Show all buildings">
+                  <HBox.margin>
+                     <Insets left="10.0" top="40.0" />
+                  </HBox.margin>
+               </Button>
+               <Button mnemonicParsing="false" text="Show all sensors">
+                  <HBox.margin>
+                     <Insets left="10.0" top="40.0" />
+                  </HBox.margin>
+               </Button>
+               <Button mnemonicParsing="false" text="Show all akuators">
+                  <HBox.margin>
+                     <Insets left="10.0" top="40.0" />
+                  </HBox.margin>
+               </Button>
+            </children>
+         </HBox>
+         <HBox prefHeight="100.0" prefWidth="878.0">
+            <FlowPane.margin>
+               <Insets left="50.0" />
+            </FlowPane.margin>
+            <children>
+               <Button mnemonicParsing="false" text="Show temperture in building">
+                  <HBox.margin>
+                     <Insets left="10.0" top="40.0" />
+                  </HBox.margin>
+               </Button>
+               <Button mnemonicParsing="false" text="Set temperture in building">
+                  <HBox.margin>
+                     <Insets left="10.0" top="40.0" />
+                  </HBox.margin>
+               </Button>
+               <Button mnemonicParsing="false" text="Show CO2 level in building">
+                  <HBox.margin>
+                     <Insets left="10.0" top="40.0" />
+                  </HBox.margin>
+               </Button>
+               <Button mnemonicParsing="false" text="Set CO2 level in building">
+                  <HBox.margin>
+                     <Insets left="10.0" top="40.0" />
+                  </HBox.margin>
+               </Button>
+            </children>
+         </HBox>
+         <HBox prefHeight="100.0" prefWidth="864.0">
+            <opaqueInsets>
+               <Insets />
+            </opaqueInsets>
+            <FlowPane.margin>
+               <Insets left="60.0" />
+            </FlowPane.margin>
+            <children>
+               <Button mnemonicParsing="false" text="Add Building">
+                  <HBox.margin>
+                     <Insets top="40.0" />
+                  </HBox.margin>
+               </Button>
+               <Button mnemonicParsing="false" text="Remove building">
+                  <HBox.margin>
+                     <Insets left="10.0" top="40.0" />
+                  </HBox.margin>
+               </Button>
+               <Button mnemonicParsing="false" text="Add sensor">
+                  <HBox.margin>
+                     <Insets left="10.0" top="40.0" />
+                  </HBox.margin>
+               </Button>
+               <Button mnemonicParsing="false" text="Remove sensor">
+                  <HBox.margin>
+                     <Insets left="10.0" top="40.0" />
+                  </HBox.margin>
+               </Button>
+               <Button mnemonicParsing="false" text="Add akuator">
+                  <HBox.margin>
+                     <Insets left="10.0" top="40.0" />
+                  </HBox.margin>
+               </Button>
+               <Button mnemonicParsing="false" text="Remove akuator">
+                  <HBox.margin>
+                     <Insets left="10.0" top="40.0" />
+                  </HBox.margin>
+               </Button>
+            </children>
+         </HBox>
+      </children>
+   </FlowPane>

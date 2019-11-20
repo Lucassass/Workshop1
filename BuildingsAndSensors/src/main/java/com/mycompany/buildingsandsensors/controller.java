@@ -5,14 +5,15 @@ import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 
 import java.net.URL;
+import java.util.ArrayList;
 import java.util.ResourceBundle;
 
 public class controller implements Initializable {
-    private BuildingManagementSystem bms;
+    BuildingManagementSystem bms;
 
-   @FXML
+    @FXML
     public void showAllBuildings(ActionEvent actionEvent) {
-       System.out.println(bms.getBuilding());
+        System.out.println(bms.getBuilding());
     }
 
     @Override
