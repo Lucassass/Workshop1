@@ -6,8 +6,7 @@
 <?import javafx.scene.layout.FlowPane?>
 <?import javafx.scene.layout.HBox?>
 
-
-<FlowPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="503.0" prefWidth="981.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<FlowPane fx:controller="src.main.java.com.mycompany.buildingsandsensors.App" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="503.0" prefWidth="981.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <TextField prefHeight="146.0" prefWidth="933.0">
          <FlowPane.margin>
@@ -19,7 +18,7 @@
             <Insets left="50.0" top="20.0" />
          </FlowPane.margin>
          <children>
-            <Button mnemonicParsing="false" text="Show all buildings">
+            <Button mnemonicParsing="false" onAction="#showAllBuildings" text="Show all buildings">
                <HBox.margin>
                   <Insets left="10.0" top="40.0" />
                </HBox.margin>

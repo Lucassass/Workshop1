@@ -1,10 +1,14 @@
 package src.main.java.com.mycompany.buildingsandsensors;
 
 import javafx.application.Application;
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.Label;
-import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
+
+import java.io.IOException;
 
 /**
  * JavaFX App
@@ -12,17 +16,19 @@ import javafx.stage.Stage;
 public class App extends Application {
 
     @Override
-    public void start(Stage stage) {
-        
-        var label = new Label("Hello, JavaFX ");
-        var scene = new Scene(new StackPane(label), 640, 480);
-        stage.setTitle("Super Vision Control");
-        stage.setScene(scene);
-        stage.show();
+    public void start(Stage primaryStage) throws IOException {
+        Parent root = FXMLLoader.load(getClass().getResource("workshop.fxml"));
+        primaryStage.setTitle("Super Vision Control");
+        Scene scene = new Scene(root);
+        primaryStage.setScene(scene);
+        primaryStage.show();
     }
 
     public static void load(String[] args) {
         launch();
     }
 
+    public void showAllBuildings(ActionEvent actionEvent) {
+        return
+    }
 }
