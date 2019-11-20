@@ -18,5 +18,6 @@ public class controller implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         this.bms = new BuildingManagementSystem("1", new ArrayList<Building>());
+        this.bms.addBuilding("tim");
     }
 }
