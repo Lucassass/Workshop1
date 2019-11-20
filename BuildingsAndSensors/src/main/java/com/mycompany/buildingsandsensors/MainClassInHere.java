@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package com.mycompany.buildingsandsensors;
+package src.main.java.com.mycompany.buildingsandsensors;
 
 public class MainClassInHere {
     public static void main (String[] args) {

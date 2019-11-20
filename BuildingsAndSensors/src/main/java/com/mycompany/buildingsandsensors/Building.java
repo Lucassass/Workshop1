@@ -4,8 +4,33 @@
  * and open the template in the editor.
  */
 
-package com.mycompany.buildingsandsensors;
+package src.main.java.com.mycompany.buildingsandsensors;
 
-public class Building {
+import java.util.ArrayList;
+import java.util.UUID;
 
+
+public class Building extends Unit {
+    ArrayList Sensor = new ArrayList();
+    ArrayList akuator = new ArrayList();
+
+    public ArrayList getSensor() {
+        return Sensor;
+    }
+
+    public ArrayList getAkuator() {
+        return akuator;
+    }
+
+    public void addCO2Sensor(String name){
+        return UUID;
+    }
+
+    public void removeSensor(UUID) {
+        return;
+    }
+
+    public addVentakuator(String name){
+        return UUID;
+    }
 }

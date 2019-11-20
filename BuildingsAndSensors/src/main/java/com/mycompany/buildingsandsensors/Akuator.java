@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package com.mycompany.buildingsandsensors;
+package src.main.java.com.mycompany.buildingsandsensors;
 
 public class Akuator {
     // Same as sensor, maybe a double or String
@@ -18,7 +18,8 @@ public class Akuator {
     public void setAkuator(double akuator) {
         this.akuator = akuator;
     }
-    
-    
 
+    public double getAkuator() {
+        return akuator;
+    }
 }

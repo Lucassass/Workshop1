@@ -1,4 +1,4 @@
-package com.mycompany.buildingsandsensors;
+package src.main.java.com.mycompany.buildingsandsensors;
 
 import javafx.application.Application;
 import javafx.scene.Scene;
