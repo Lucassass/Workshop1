@@ -3,8 +3,8 @@ package src.main.java.com.mycompany.buildingsandsensors;
 import java.util.UUID;
 
 public class Unit {
-    String name;
-    UUID id;
+    private String name;
+    private UUID id;
 
     public UUID getId() {
         return id;

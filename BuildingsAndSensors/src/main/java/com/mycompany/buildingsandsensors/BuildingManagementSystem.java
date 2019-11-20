@@ -10,11 +10,11 @@ public class BuildingManagementSystem {
         return building;
     }
 
-    private addBuilding(String name) {
+    public addBuilding(String name) {
         return this.building.add();
     }
 
-    private removeBuilding(String name){
+    public removeBuilding(String name){
         return this.building.remove();
     }
 }

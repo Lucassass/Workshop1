@@ -11,8 +11,8 @@ import java.util.UUID;
 
 
 public class Building extends Unit {
-    ArrayList Sensor = new ArrayList();
-    ArrayList akuator = new ArrayList();
+    private ArrayList Sensor = new ArrayList();
+    private ArrayList akuator = new ArrayList();
 
     public ArrayList getSensor() {
         return Sensor;
