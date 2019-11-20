@@ -11,26 +11,44 @@ import java.util.UUID;
 
 
 public class Building extends Unit {
-    private ArrayList Sensor = new ArrayList();
-    private ArrayList akuator = new ArrayList();
+    private ArrayList<Sensor> sensors = new ArrayList();
+    private ArrayList<Akuator> akuators = new ArrayList();
 
-    public ArrayList getSensor() {
-        return Sensor;
+    public Building(String name) {
+        super(name);
     }
 
-    public ArrayList getAkuator() {
-        return akuator;
+    public ArrayList<src.main.java.com.mycompany.buildingsandsensors.Sensor> getSensor() {
+        return sensors;
     }
 
-    public void addCO2Sensor(String name){
-        return UUID;
+    public ArrayList<Akuator> getAkuator() {
+        return akuators;
     }
 
-    public void removeSensor(UUID) {
-        return;
+    public UUID addTemperaturSensor(String name) {
+        TempSensor newsSnsor = new TempSensor(name);
+        sensors.add(newsSnsor);
+        return newsSnsor.getId();
     }
 
-    public addVentakuator(String name){
-        return UUID;
+    public UUID addCO2Sensor(String name){
+        CO2Sensor newco2 = new CO2Sensor(name);
+        sensors.add(newco2);
+        return newco2.getId();
+    }
+
+    public void removeSensor(Unit UUID) {
+        sensors.remove(UUID);
+        }
+
+    public UUID addVentAkuator(String name){
+        Akuator newakuator = new Akuator(name,2.0);
+        akuators.add(newakuator);
+        return newakuator.getId();
+    }
+    public void removeAkuator(Unit UUID){
+        akuators.remove(UUID);
     }
 }
+

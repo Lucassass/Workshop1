@@ -3,42 +3,74 @@
   <ID>JAVA</ID>
   <OriginalElement />
   <nodes>
-    <node x="0.0" y="569.0">src.main.java.com.mycompany.buildingsandsensors.App</node>
-    <node x="34.5" y="0.0">src.main.java.com.mycompany.buildingsandsensors.Unit</node>
-    <node x="204.0" y="569.0">src.main.java.com.mycompany.buildingsandsensors.Data</node>
-    <node x="0.0" y="452.0">src.main.java.com.mycompany.buildingsandsensors.TempSensor</node>
-    <node x="356.0" y="569.0">src.main.java.com.mycompany.buildingsandsensors.MainClassInHere</node>
-    <node x="294.0" y="0.0">src.main.java.com.mycompany.buildingsandsensors.Akuator</node>
-    <node x="87.0" y="330.0">src.main.java.com.mycompany.buildingsandsensors.Sensor</node>
-    <node x="261.0" y="123.0">src.main.java.com.mycompany.buildingsandsensors.VentilationAkuator</node>
-    <node x="167.0" y="452.0">src.main.java.com.mycompany.buildingsandsensors.CO2Sensor</node>
-    <node x="0.0" y="145.0">src.main.java.com.mycompany.buildingsandsensors.Building</node>
-    <node x="359.0" y="330.0">src.main.java.com.mycompany.buildingsandsensors.BuildingManagementSystem</node>
+    <node x="0.0" y="598.0">src.main.java.com.mycompany.buildingsandsensors.App</node>
+    <node x="301.375" y="0.0">src.main.java.com.mycompany.buildingsandsensors.Unit</node>
+    <node x="103.5" y="469.5">src.main.java.com.mycompany.buildingsandsensors.Data</node>
+    <node x="0.0" y="302.0">src.main.java.com.mycompany.buildingsandsensors.TempSensor</node>
+    <node x="204.0" y="598.0">src.main.java.com.mycompany.buildingsandsensors.MainClassInHere</node>
+    <node x="485.25" y="145.0">src.main.java.com.mycompany.buildingsandsensors.Akuator</node>
+    <node x="87.0" y="145.5">src.main.java.com.mycompany.buildingsandsensors.Sensor</node>
+    <node x="334.0" y="290.0">src.main.java.com.mycompany.buildingsandsensors.VentilationAkuator</node>
+    <node x="167.0" y="302.0">src.main.java.com.mycompany.buildingsandsensors.CO2Sensor</node>
+    <node x="571.0" y="268.0">src.main.java.com.mycompany.buildingsandsensors.Building</node>
+    <node x="572.0" y="458.0">src.main.java.com.mycompany.buildingsandsensors.BuildingManagementSystem</node>
   </nodes>
   <notes />
   <edges>
+    <edge source="src.main.java.com.mycompany.buildingsandsensors.Sensor" target="src.main.java.com.mycompany.buildingsandsensors.Unit">
+      <point x="0.0" y="-36.0" />
+      <point x="157.0" y="120.0" />
+      <point x="338.125" y="120.0" />
+      <point x="-36.75" y="47.5" />
+    </edge>
+    <edge source="src.main.java.com.mycompany.buildingsandsensors.Building" target="src.main.java.com.mycompany.buildingsandsensors.Akuator">
+      <point x="0.0" y="-70.0" />
+      <point x="679.0" y="243.0" />
+      <point x="598.5" y="243.0" />
+      <point x="37.75" y="36.5" />
+    </edge>
+    <edge source="src.main.java.com.mycompany.buildingsandsensors.Data" target="src.main.java.com.mycompany.buildingsandsensors.CO2Sensor">
+      <point x="26.75" y="-36.0" />
+      <point x="183.75" y="433.0" />
+      <point x="240.5" y="433.0" />
+      <point x="0.0" y="36.0" />
+    </edge>
     <edge source="src.main.java.com.mycompany.buildingsandsensors.VentilationAkuator" target="src.main.java.com.mycompany.buildingsandsensors.Akuator">
       <point x="0.0" y="-48.0" />
-      <point x="0.0" y="36.5" />
+      <point x="442.5" y="243.0" />
+      <point x="523.0" y="243.0" />
+      <point x="-37.75" y="36.5" />
     </edge>
-    <edge source="src.main.java.com.mycompany.buildingsandsensors.Building" target="src.main.java.com.mycompany.buildingsandsensors.Unit">
-      <point x="0.0" y="-70.0" />
-      <point x="0.0" y="47.5" />
+    <edge source="src.main.java.com.mycompany.buildingsandsensors.Akuator" target="src.main.java.com.mycompany.buildingsandsensors.Unit">
+      <point x="0.0" y="-36.5" />
+      <point x="560.75" y="120.0" />
+      <point x="411.625" y="120.0" />
+      <point x="36.75" y="47.5" />
+    </edge>
+    <edge source="src.main.java.com.mycompany.buildingsandsensors.Data" target="src.main.java.com.mycompany.buildingsandsensors.TempSensor">
+      <point x="-26.75" y="-36.0" />
+      <point x="130.25" y="433.0" />
+      <point x="73.5" y="433.0" />
+      <point x="0.0" y="36.0" />
     </edge>
     <edge source="src.main.java.com.mycompany.buildingsandsensors.CO2Sensor" target="src.main.java.com.mycompany.buildingsandsensors.Sensor">
       <point x="0.0" y="-36.0" />
-      <point x="240.5" y="427.0" />
-      <point x="192.0" y="427.0" />
+      <point x="240.5" y="243.0" />
+      <point x="192.0" y="243.0" />
       <point x="35.0" y="36.0" />
     </edge>
     <edge source="src.main.java.com.mycompany.buildingsandsensors.TempSensor" target="src.main.java.com.mycompany.buildingsandsensors.Sensor">
       <point x="0.0" y="-36.0" />
-      <point x="73.5" y="427.0" />
-      <point x="122.0" y="427.0" />
+      <point x="73.5" y="243.0" />
+      <point x="122.0" y="243.0" />
       <point x="-35.0" y="36.0" />
     </edge>
+    <edge source="src.main.java.com.mycompany.buildingsandsensors.BuildingManagementSystem" target="src.main.java.com.mycompany.buildingsandsensors.Building">
+      <point x="0.0" y="-47.5" />
+      <point x="0.0" y="70.0" />
+    </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="0.9" x="282.0" y="283.77777777777777" />
+  <settings layout="Hierarchic Group" zoom="1.0" x="299.0" y="340.0" />
   <SelectedNodes />
   <Categories>
     <Category>Fields</Category>

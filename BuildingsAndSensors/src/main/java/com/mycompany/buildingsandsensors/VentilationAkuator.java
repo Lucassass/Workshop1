@@ -1,20 +1,17 @@
 package src.main.java.com.mycompany.buildingsandsensors;
 
 public class VentilationAkuator extends Akuator {
-    double value;
 
-    public VentilationAkuator(double akuator) {
-        super(akuator);
+    public VentilationAkuator(String name, double value) {
+        super(name, value);
     }
-
-    public void setValue(double value) {
-        this.value = value;
+    @Override
+    public double setValue(double value) {
+        return super.setValue(value);
     }
 
     @Override
     public String toString() {
-        return "VentilationAkuator{" +
-                "value=" + value +
-                '}';
+        return "VentilationAkuator{}";
     }
 }

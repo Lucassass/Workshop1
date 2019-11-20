@@ -3,19 +3,24 @@ package src.main.java.com.mycompany.buildingsandsensors;
 import java.util.ArrayList;
 import java.util.UUID;
 
-public class BuildingManagementSystem {
-    private ArrayList building = new ArrayList(Building);
-
-    public ArrayList getBuilding() {
-        return building;
+public class BuildingManagementSystem extends Building {
+    public BuildingManagementSystem(String name, ArrayList<Building> buildings) {
+        super(name);
+        this.buildings = buildings;
     }
 
-    public addBuilding(String name) {
-        return this.building.add();
-    }
+    private ArrayList<Building> buildings = new ArrayList();
 
-    public removeBuilding(String name){
-        return this.building.remove();
+    public ArrayList<Building> getBuilding() {
+        return buildings;
+    }
+    public UUID addBuilding(String name) {
+        Building newbuildings = new  Building(name);
+        buildings.add(newbuildings);
+        return newbuildings.getId();
+    }
+    public void removeBuilding(Unit UUID) {
+        buildings.remove(UUID);
     }
 }
 

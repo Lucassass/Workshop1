@@ -6,7 +6,10 @@
 
 package src.main.java.com.mycompany.buildingsandsensors;
 
-public class Sensor{
+public class Sensor extends Unit {
+    public Sensor(String name) {
+        super(name);
+    }
 
     protected void getTemp() {
     }
